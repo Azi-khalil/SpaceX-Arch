@@ -1,0 +1,39 @@
+.rocketCont {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 2%;
+  padding: 10px;
+  width: 400px;
+  background-color: silver;
+  transition: transform 2s;
+  gap: 20px;
+}
+.rocketCont:hover {
+  transform: scale(1.1);
+}
+.title {
+  margin-top: 0;
+}
+.body {
+  height: 60%;
+  width: 100%;
+}
+.body img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: slategrey;
+  border-radius: 5%;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

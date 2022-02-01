@@ -1,0 +1,35 @@
+.navCon {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between;
+}
+h1 {
+  color: white;
+}
+
+.icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  gap: 40px;
+  border-radius: 2%;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links a:hover {
+  border-bottom: white 1px solid;
+}
